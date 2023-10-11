@@ -19,5 +19,9 @@ public class Program21 {
 	public static double ms(int velocity) {
 		return velocity * 3.6;
 	}
+	
+	public static double km(int velocity) {
+		return velocity / 3.6;
+	}
 
 }
